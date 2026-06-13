@@ -1,0 +1,33 @@
+{
+  "aid": "dolibarr",
+  "name": "Dolibarr Blog",
+  "description": "Latest news and updates from the Dolibarr ERP/CRM community.",
+  "url": "https://www.dolibarr.org/#lastnews",
+  "updated": "2026-06-13",
+  "blogs": [
+    {
+      "title": "Dolibarr was presented at Kigali",
+      "url": "https://www.dolibarr.org/dolibarr-was-presented-at-kigali.php",
+      "date": "2026-06-13",
+      "description": "A presentation of Dolibarr ERP CRM took place in Kigali, showcasing the software to an international audience."
+    },
+    {
+      "title": "Dolibarr 24 Beta (Freeze)",
+      "url": "https://www.dolibarr.org/dolibarr-24-beta-freeze.php",
+      "date": "2026-05-26",
+      "description": "The development team announced a feature freeze for Dolibarr version 24 beta, signaling the transition toward the official release phase."
+    },
+    {
+      "title": "Dolibarr DevCamp Spring 2026 Noisy le Grand",
+      "url": "https://www.dolibarr.org/dolibarr-devcamp-spring-2026-noisy-le-grand.php",
+      "date": "2026-03-24",
+      "description": "The spring developer conference for the Dolibarr community convened in Noisy le Grand, bringing together contributors and stakeholders."
+    },
+    {
+      "title": "Dolibarr ERP & CRM V23 has been released",
+      "url": "https://www.dolibarr.org/dolibarr-erp-crm-v23-has-been-released.php",
+      "date": "2026-03-03",
+      "description": "Version 23 of the Dolibarr ERP/CRM became available to users, offering comprehensive business management capabilities."
+    }
+  ]
+}

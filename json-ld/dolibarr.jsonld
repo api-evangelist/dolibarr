@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://raw.githubusercontent.com/api-evangelist/dolibarr/refs/heads/main/apis.yml",
+  "name": "Dolibarr",
+  "description": "Dolibarr is an open-source ERP and CRM platform for businesses, freelancers, and foundations. It provides a REST API for managing contacts, invoices, products, orders, projects, banking, HR, and business module integrations. The API uses standard HTTP methods and JSON, with token-based authentication via the DOLAPIKEY header.",
+  "url": "https://www.dolibarr.org",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "softwareVersion": "23",
+  "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "url": "https://wiki.dolibarr.org/index.php/Cloud_Solutions_for_Dolibarr_ERP_CRM"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Dolibarr Community",
+    "url": "https://www.dolibarr.org"
+  },
+  "sameAs": [
+    "https://github.com/dolibarr",
+    "https://www.linkedin.com/company/association-dolibarr",
+    "https://x.com/dolibarr"
+  ],
+  "hasPart": [
+    {
+      "@type": "WebAPI",
+      "name": "Dolibarr REST API",
+      "description": "REST API for the Dolibarr ERP/CRM platform providing full CRUD operations on business objects including contacts, invoices, products, orders, projects, banking entries, and HR records.",
+      "documentation": "https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer)",
+      "termsOfService": "https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer)",
+      "provider": {
+        "@type": "Organization",
+        "name": "Dolibarr Community",
+        "url": "https://www.dolibarr.org",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "url": "https://www.dolibarr.org/forum/"
+        }
+      },
+      "potentialAction": [
+        {
+          "@type": "Action",
+          "name": "Manage Contacts",
+          "target": "https://yourdolibarrurl/api/index.php/thirdparties"
+        },
+        {
+          "@type": "Action",
+          "name": "Manage Invoices",
+          "target": "https://yourdolibarrurl/api/index.php/invoices"
+        },
+        {
+          "@type": "Action",
+          "name": "Manage Products",
+          "target": "https://yourdolibarrurl/api/index.php/products"
+        },
+        {
+          "@type": "Action",
+          "name": "Manage Orders",
+          "target": "https://yourdolibarrurl/api/index.php/orders"
+        },
+        {
+          "@type": "Action",
+          "name": "Manage Projects",
+          "target": "https://yourdolibarrurl/api/index.php/projects"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    "ERP",
+    "CRM",
+    "Open Source",
+    "Invoices",
+    "Contacts",
+    "Orders",
+    "Products",
+    "Projects",
+    "Banking",
+    "HR",
+    "Business"
+  ]
+}

@@ -5,6 +5,7 @@ image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/dolibarr/refs/heads/main/apis.yml
 created: 2026-06-13
 modified: 2026-06-13
+
 specificationVersion: "0.19"
 tags:
   - ERP
@@ -66,6 +67,10 @@ common:
     url: rate-limits/dolibarr-rate-limits.yml
   - type: FinOps
     url: finops/dolibarr-finops.yml
+  - type: Blog
+    url: blogs/blogs.json
+  - type: JSONLd
+    url: json-ld/dolibarr.jsonld
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
