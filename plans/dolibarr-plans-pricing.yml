@@ -1,0 +1,55 @@
+name: Dolibarr Plans and Pricing
+description: Dolibarr is open-source ERP/CRM software available for free self-hosting under the AGPL license. Cloud-hosted options are available through DoliCloud and third-party providers.
+url: https://wiki.dolibarr.org/index.php/Cloud_Solutions_for_Dolibarr_ERP_CRM
+plans:
+  - name: Self-Hosted (Open Source)
+    description: Download and host Dolibarr on your own server. Full access to all core features. Free forever under the AGPL license.
+    price: 0
+    currency: USD
+    per: month
+    features:
+      - Full ERP and CRM functionality
+      - REST API access
+      - Unlimited users
+      - All core modules (contacts, invoices, orders, products, projects, banking, HR)
+      - Community support via forums
+      - Requires own server/hosting infrastructure
+    apiAccess: true
+    rateLimits: None built-in; server-level controls apply
+
+  - name: DoliCloud Basic
+    description: Cloud-hosted Dolibarr managed by the official association. Per-user monthly billing.
+    price: 14
+    currency: EUR
+    per: user/month
+    features:
+      - Managed cloud hosting
+      - Automatic updates
+      - REST API access
+      - 15-day free trial
+      - Standard support
+    apiAccess: true
+    trialDays: 15
+
+  - name: DoliCloud Premium
+    description: Cloud-hosted Dolibarr with enhanced features. Flat fee plus per-user cost.
+    price: 30
+    currency: EUR
+    per: month
+    additionalCost:
+      amount: 15
+      currency: EUR
+      per: user/month
+    features:
+      - All Basic plan features
+      - Priority support
+      - REST API access
+      - Enhanced modules
+      - 15-day free trial
+    apiAccess: true
+    trialDays: 15
+
+notes:
+  - Dolistore marketplace modules range from EUR 15 to EUR 300+ each for additional functionality.
+  - Third-party cloud hosts (DoliOnDemand, Easya Solutions, iNodbox, etc.) offer varying plans and trial periods from 15 to 60 days.
+  - The core software is always free and open-source under the GNU AGPL v3 license.

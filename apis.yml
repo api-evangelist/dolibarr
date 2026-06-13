@@ -1,0 +1,71 @@
+aid: dolibarr
+name: Dolibarr
+description: Dolibarr is an open-source ERP and CRM platform for businesses, freelancers, and foundations. It provides a REST API for managing contacts, invoices, products, orders, projects, banking, HR, and business module integrations. The API uses standard HTTP methods and JSON, with token-based authentication via the DOLAPIKEY header.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/dolibarr/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+tags:
+  - ERP
+  - CRM
+  - Open Source
+  - Invoices
+  - Contacts
+  - Orders
+  - Products
+  - Projects
+  - Banking
+  - HR
+  - Business
+apis:
+  - aid: dolibarr:dolibarr-rest-api
+    name: Dolibarr REST API
+    description: REST API for the Dolibarr ERP/CRM platform providing full CRUD operations on business objects including contacts, invoices, products, orders, projects, banking entries, and HR records. Available on any Dolibarr installation with the API module enabled.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer)
+    baseURL: https://yourdolibarrurl/api/index.php
+    tags:
+      - ERP
+      - CRM
+      - Invoices
+      - Contacts
+      - Orders
+      - Products
+      - Projects
+      - Banking
+      - HR
+    properties:
+      - type: Documentation
+        url: https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer)
+      - type: Explorer
+        url: https://yourdolibarrurl/api/index.php/explorer
+    contact:
+      - FN: Dolibarr Community
+        url: https://www.dolibarr.org/forum/
+common:
+  - type: Website
+    url: https://www.dolibarr.org
+  - type: Documentation
+    url: https://www.dolibarr.org/developer-documentation.php
+  - type: GitHubOrg
+    url: https://github.com/dolibarr
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/association-dolibarr
+  - type: Blog
+    url: https://www.dolibarr.org/#lastnews
+  - type: Pricing
+    url: https://wiki.dolibarr.org/index.php/Cloud_Solutions_for_Dolibarr_ERP_CRM
+  - type: StatusPage
+    url: https://www.dolibarr.org
+  - type: X
+    url: https://x.com/dolibarr
+  - type: Plans
+    url: plans/dolibarr-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/dolibarr-rate-limits.yml
+  - type: FinOps
+    url: finops/dolibarr-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

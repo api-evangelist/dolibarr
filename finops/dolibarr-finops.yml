@@ -1,0 +1,65 @@
+name: Dolibarr FinOps
+description: Financial operations considerations for organizations using Dolibarr ERP/CRM APIs. Dolibarr is open-source with no per-API-call costs; costs arise from hosting and optional marketplace modules.
+url: https://www.dolibarr.org
+
+costModel: infrastructure-based
+perCallCost: false
+freeTier: true
+
+costCategories:
+  - name: Self-Hosted Infrastructure
+    description: Hosting costs for running Dolibarr on your own servers or a VPS.
+    estimatedRange:
+      min: 5
+      max: 50
+      currency: USD
+      per: month
+    notes: Cost varies by cloud provider (AWS, DigitalOcean, OVH, etc.) and server size. A small VPS is sufficient for most SME deployments.
+
+  - name: DoliCloud SaaS (Basic)
+    description: Official cloud-hosted Dolibarr, per user per month.
+    price: 14
+    currency: EUR
+    per: user/month
+    notes: Billed monthly; includes hosting, backups, and updates.
+
+  - name: DoliCloud SaaS (Premium)
+    description: Official cloud-hosted Dolibarr with enhanced support.
+    basePrice: 30
+    perUserPrice: 15
+    currency: EUR
+    per: month
+    notes: Flat base fee plus per-user charge.
+
+  - name: Dolistore Modules
+    description: Marketplace add-on modules for extended functionality.
+    estimatedRange:
+      min: 15
+      max: 300
+      currency: EUR
+      per: module (one-time)
+    notes: Optional; most integrations and automation modules are available on DoliStore.
+
+  - name: Professional Support / Development
+    description: Third-party service providers and integrators for customization and support.
+    estimatedRange:
+      min: 50
+      max: 200
+      currency: EUR
+      per: hour
+    notes: Varies by provider and complexity.
+
+optimization:
+  - strategy: Self-host on minimal VPS for small teams
+    savings: Eliminates per-user cloud fees entirely for teams comfortable with server administration.
+  - strategy: Use community modules where possible
+    savings: Many modules are available free on GitHub before purchasing commercial versions on DoliStore.
+  - strategy: Leverage built-in API for integrations
+    savings: The REST API eliminates the need for expensive third-party integration middleware.
+  - strategy: Use pagination (limit/page parameters)
+    savings: Avoids fetching large datasets in single calls, reducing server memory pressure.
+
+notes:
+  - There are no metered API call costs; all API usage is included in hosting.
+  - Dolibarr's open-source model means no vendor lock-in; migration costs are minimal.
+  - For high-availability deployments, factor in load balancer and database clustering costs.

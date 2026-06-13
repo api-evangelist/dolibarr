@@ -1,0 +1,36 @@
+name: Dolibarr API Rate Limits
+description: Dolibarr's REST API does not include built-in application-level rate limiting. Rate limiting must be implemented at the server/infrastructure level by the operator.
+url: https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer)
+
+builtInRateLimiting: false
+
+applicationLimits:
+  - name: Response Record Limit
+    description: API responses are implicitly limited to 100 records per request by default.
+    limit: 100
+    unit: records
+    per: request
+    notes: This is a pagination limit; use limit and page query parameters to paginate through larger datasets.
+
+serverLevelOptions:
+  - name: Apache mod_ratelimit
+    description: Use Apache's mod_ratelimit module to throttle requests at the HTTP server level.
+    type: infrastructure
+
+  - name: Nginx rate limiting
+    description: Use Nginx limit_req_zone and limit_req directives to cap requests per IP or user.
+    type: infrastructure
+
+  - name: fail2ban
+    description: Use fail2ban to detect and block brute-force API key attempts.
+    type: security
+
+authentication:
+  method: API Key (token)
+  header: DOLAPIKEY
+  notes: Each Dolibarr user can generate a personal API key from their profile settings. Multi-company environments can use the DOLAPIENTITY header to target specific entities.
+
+notes:
+  - Dolibarr is self-hosted open-source software; rate limits are entirely the responsibility of the server operator.
+  - Cloud-hosted providers (DoliCloud, DoliOnDemand, etc.) may impose their own rate limits; consult individual provider documentation.
+  - No official rate limit headers (X-RateLimit-Limit, X-RateLimit-Remaining, Retry-After) are emitted by the application layer.
