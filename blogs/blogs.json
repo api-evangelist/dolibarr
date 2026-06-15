@@ -29,5 +29,14 @@
       "date": "2026-03-03",
       "description": "Version 23 of the Dolibarr ERP/CRM became available to users, offering comprehensive business management capabilities."
     }
-  ]
+  ],
+  "repo": "dolibarr",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/association-dolibarr",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
