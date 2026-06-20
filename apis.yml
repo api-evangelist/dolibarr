@@ -1,7 +1,7 @@
 aid: dolibarr
 name: Dolibarr
 description: Dolibarr is an open-source ERP and CRM platform for businesses, freelancers, and foundations. It provides a REST API for managing contacts, invoices, products, orders, projects, banking, HR, and business module integrations. The API uses standard HTTP methods and JSON, with token-based authentication via the DOLAPIKEY header.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/dolibarr/refs/heads/main/apis.yml
 created: 2026-06-13
 modified: 2026-06-13
@@ -23,7 +23,7 @@ apis:
   - aid: dolibarr:dolibarr-rest-api
     name: Dolibarr REST API
     description: REST API for the Dolibarr ERP/CRM platform providing full CRUD operations on business objects including contacts, invoices, products, orders, projects, banking entries, and HR records. Available on any Dolibarr installation with the API module enabled.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer)
     baseURL: https://yourdolibarrurl/api/index.php
     tags:
