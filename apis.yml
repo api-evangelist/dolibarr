@@ -45,6 +45,8 @@ apis:
       - FN: Dolibarr Community
         url: https://www.dolibarr.org/forum/
 common:
+  - type: DomainSecurity
+    url: security/dolibarr-domain-security.yml
   - type: Website
     url: https://www.dolibarr.org
   - type: Documentation
