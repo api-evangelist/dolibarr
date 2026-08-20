@@ -22,6 +22,18 @@ specificationVersion: '0.23'
 tags:
   - ERP
   - CRM
+  - Open-Source
+  - Invoices
+  - Contacts
+  - Order
+  - Product
+  - Project
+  - Banking
+  - HR
+  - Business
+tags_raw:
+  - ERP
+  - CRM
   - Open Source
   - Invoices
   - Contacts
@@ -39,6 +51,16 @@ apis:
     humanURL: https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer)
     baseURL: https://yourdolibarrurl/api/index.php
     tags:
+      - ERP
+      - CRM
+      - Invoices
+      - Contacts
+      - Order
+      - Product
+      - Project
+      - Banking
+      - HR
+    tags_raw:
       - ERP
       - CRM
       - Invoices
