@@ -114,8 +114,6 @@ common:
     url: rate-limits/dolibarr-rate-limits.yml
   - type: FinOps
     url: finops/dolibarr-finops.yml
-  - type: Blog
-    url: blogs/blogs.json
   - type: JSONLD
     url: json-ld/dolibarr.jsonld
 maintainers:
