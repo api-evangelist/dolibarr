@@ -40,7 +40,7 @@ tags:
   - Product
   - Project
   - Banking
-  - HR
+  - Human Resources
   - Business
 tags_raw:
   - ERP
@@ -70,7 +70,7 @@ apis:
       - Product
       - Project
       - Banking
-      - HR
+      - Human Resources
     tags_raw:
       - ERP
       - CRM
