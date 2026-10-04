@@ -33,7 +33,7 @@ specificationVersion: '0.23'
 tags:
   - ERP
   - CRM
-  - Open-Source
+  - Open Source
   - Invoices
   - Contacts
   - Order
@@ -54,6 +54,7 @@ tags_raw:
   - Banking
   - HR
   - Business
+  - Open-Source
 apis:
   - aid: dolibarr:dolibarr-rest-api
     name: Dolibarr REST API
