@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: Dolibarr Plans and Pricing
 description: Dolibarr is open-source ERP/CRM software available for free self-hosting under the AGPL license. Cloud-hosted options are available through DoliCloud and third-party providers.
 url: https://wiki.dolibarr.org/index.php/Cloud_Solutions_for_Dolibarr_ERP_CRM
