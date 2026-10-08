@@ -57,3 +57,29 @@ notes:
   - Dolistore marketplace modules range from EUR 15 to EUR 300+ each for additional functionality.
   - Third-party cloud hosts (DoliOnDemand, Easya Solutions, iNodbox, etc.) offer varying plans and trial periods from 15 to 60 days.
   - The core software is always free and open-source under the GNU AGPL v3 license.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Self-Hosted (Open Source)
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: DoliCloud Basic
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: DoliCloud Premium
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
