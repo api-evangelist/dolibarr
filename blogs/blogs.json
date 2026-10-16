@@ -33,12 +33,15 @@
   "repo": "dolibarr",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/association-dolibarr",
-      "error": "HTTPError"
+      "source": "https://www.dolibarr.org/#lastnews",
+      "feed_url": "https://www.dolibarr.org/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
   "post_count": 1,
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "agent_pulled": "2026-07-04",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
