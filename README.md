@@ -1,4 +1,4 @@
-# Dolibarr (dolibarr)
+# Dolibarr
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,70 +66,109 @@
 
 Dolibarr is an open-source ERP and CRM platform for businesses, freelancers, and foundations. It provides a REST API for managing contacts, invoices, products, orders, projects, banking, HR, and business module integrations. The API uses standard HTTP methods and JSON, with token-based authentication via the DOLAPIKEY header.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/dolibarr/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/dolibarr/refs/heads/main/apis.yml)
+**Areas:** ERP · CRM · Open Source · Invoices · Contacts · Order · Product · Project · Banking · Human Resources · Business
 
-## Tags
+## Dolibarr on APIs.io
 
-- ERP
-- CRM
-- Open Source
-- Invoices
-- Contacts
-- Orders
-- Products
-- Projects
-- Banking
-- HR
-- Business
+Everything profiled for Dolibarr is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dolibarr/](https://apis.io/providers/dolibarr/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** Fri Jun 12 2026 20:00:00 GMT-0400 (Eastern Daylight Time)
-- **Modified:** Fri Jun 12 2026 20:00:00 GMT-0400 (Eastern Daylight Time)
+- [Dolibarr REST API](https://apis.io/apis/dolibarr/dolibarr-rest-api/) — REST API for the Dolibarr ERP/CRM platform providing full CRUD operations on business objects including contacts, invoices, products, orders, projects,…
 
-## APIs
+### Published properties
 
-### Dolibarr REST API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-REST API for the Dolibarr ERP/CRM platform providing full CRUD operations on business objects including contacts, invoices, products, orders, projects, banking entries, and HR records. Available on any Dolibarr installation with the API module enabled.
+#### JSON-LD (1)
 
-- **Human URL:** [https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer)](https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer))
-- **Base URL:** `https://yourdolibarrurl/api/index.php`
+Linked-data contexts for the provider's vocabulary.
 
-#### Tags
+- [Dolibarr Context](https://apis.io/jsonld/dolibarr/dolibarr/)
 
-- ERP
-- CRM
-- Invoices
-- Contacts
-- Orders
-- Products
-- Projects
-- Banking
-- HR
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://wiki.dolibarr.org/index.php/Module_Web_Services_API_REST_(developer))
-- [Explorer](https://yourdolibarrurl/api/index.php/explorer)
+- [Dolibarr Domain Security](https://apis.io/security/dolibarr/dolibarr-domain-security/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dolibarr Plans Pricing](https://apis.io/plans/dolibarr/dolibarr-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dolibarr Rate Limits](https://apis.io/rate-limits/dolibarr/dolibarr-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Dolibarr Finops](https://apis.io/finops/dolibarr/dolibarr-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.dolibarr.org)
 - [Documentation](https://www.dolibarr.org/developer-documentation.php)
-- [Git Hub Org](https://github.com/dolibarr)
-- [LinkedIn](https://www.linkedin.com/company/association-dolibarr)
-- [Blog](https://www.dolibarr.org/#lastnews)
 - [Pricing](https://wiki.dolibarr.org/index.php/Cloud_Solutions_for_Dolibarr_ERP_CRM)
-- [Status Page](https://www.dolibarr.org)
-- [X (Twitter)](https://x.com/dolibarr)
-- [Plans](plans/dolibarr-plans-pricing.yml)
-- [Rate Limits](rate-limits/dolibarr-rate-limits.yml)
-- [Fin Ops](finops/dolibarr-finops.yml)
-- [Blog](blogs/blogs.json)
-- [J S O N Ld](json-ld/dolibarr.jsonld) — [JSON-LD](https://www.w3.org/TR/json-ld11/)
+- [Blog](https://www.dolibarr.org/#lastnews)
+- [Status](https://www.dolibarr.org)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 15.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 6.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 10.7 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.7** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dolibarr/](https://apis.io/providers/dolibarr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dolibarr: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dolibarr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
